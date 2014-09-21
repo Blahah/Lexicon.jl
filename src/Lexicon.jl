@@ -8,7 +8,7 @@ import Docile.Interface: manual # extending
 import Base: push!, length, writemime
 import Base.Meta: isexpr
 
-export @query, query, manual, save, doctest, passed, failed, skipped
+export @query, query, manual, save, doctest, passed, failed, skipped, save_sectioned
 
 using Docile, Docile.Interface
 @docstrings {"../doc/manual.md"}
